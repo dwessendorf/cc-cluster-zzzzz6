@@ -1,0 +1,14 @@
+site_name: 'Confluent Cloud Cluster'
+site_description: 'Documentation for Confluent Cloud Cluster'
+
+nav:
+  - Home: index.md
+  - Cluster Details: cluster-details.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
